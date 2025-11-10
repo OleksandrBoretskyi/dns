@@ -28,9 +28,3 @@ variable "cloudflare_zone_id" {
   type        = string
   default     = ""
 }
-
-variable "aws_zone_id" {
-  description = "AWS Route53 Zone ID"
-  type        = string
-  default     = ""
-}
