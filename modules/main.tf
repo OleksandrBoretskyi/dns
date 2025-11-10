@@ -16,7 +16,7 @@ resource "cloudflare_dns_record" "name" {
 
   name    = var.record_name
   type    = var.record_type
-  ttl     = 10
+  ttl     = 1
   content = var.record_value
   proxied = true
 }
