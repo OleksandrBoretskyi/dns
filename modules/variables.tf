@@ -23,12 +23,6 @@ variable "record_value" {
   type    = string
 }
 
-variable "cloudflare_zone_id" {
-  description = "Cloudflare Zone ID"
-  type        = string
-  default     = ""
-}
-
 variable "aws_zone_id" {
   description = "AWS Route53 Zone ID"
   type        = string
